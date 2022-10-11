@@ -4,8 +4,8 @@ import QuizOfReact from '../QuizOfReact/QuizOfReact';
 
 const ReactQuiz = () => {
     const quiz = useLoaderData().data;
-    const { name, logo, questions } = quiz;
-    // console.log(questions);
+    const { name, questions } = quiz;
+    // console.log(logo);
     return (
         <div>
             <h2 className="text-3xl">Total Quiz: {quiz.total}</h2>
