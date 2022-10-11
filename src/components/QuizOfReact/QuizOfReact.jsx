@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import List from '../List/List';
 import './QuizOfReact.css';
-import { Link } from 'react-router-dom';
 import { EyeIcon } from '@heroicons/react/24/solid';
 
 const QuizOfReact = ({reactquez}) => {
     const { correctAnswer, question, options } = reactquez;
     const [answer, setAnswer] = useState();
-    // console.log(correctAnswer);
+    // console.log(reactquez);
     const correctAns = (correctAnswer) => {
         setAnswer(correctAnswer);
     }
@@ -19,10 +18,11 @@ const QuizOfReact = ({reactquez}) => {
             {
                 options.map(allOption => <List
                     allOption={allOption}
+                    correctAnswer={correctAnswer}
                 ></List>)
             }
             </div>
-            <div className="toast absolute top-28 right-0">
+            <div className="toast absolute top-32 right-0">
                 <div className="alert alert-success">
                     <div>
                         <span className=''>{answer}</span>
@@ -30,14 +30,6 @@ const QuizOfReact = ({reactquez}) => {
                 </div>
             </div>
             <button onClick={()=>correctAns(correctAnswer)}><EyeIcon className="h-6 w-6 text-blue-500 absolute top-4 right-5" /></button>
-
-            {/* <div className="toast">
-                <div className="alert alert-success">
-                    <div>
-                        <span className='px-4'>Toast</span>
-                    </div>
-                </div>
-            </div> */}
         </div>
     );
 };
