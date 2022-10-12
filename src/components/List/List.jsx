@@ -3,7 +3,7 @@ import './List.css';
 
 const List = ({ allOption, correctAnswer }) => {
     const [ans, setAns] = useState(true);
-    const handleAns = () => {
+    // const handleAns = () => {
         
         if (allOption === correctAnswer) {
             setAns('Right');
