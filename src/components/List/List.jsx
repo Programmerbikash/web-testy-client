@@ -9,7 +9,7 @@ const List = ({ allOption, correctAnswer }) => {
             setAns('Right');
         }
         else {
-            setAns('Wrong');
+            // setAns('Wrong');
         }
     }
 

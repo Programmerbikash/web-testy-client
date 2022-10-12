@@ -68,3 +68,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Important Information about Assignment:-
+1. My Website Name: Web Testy
+2. Live Link: https://preeminent-cocada-036b67.netlify.app/home
+3. Github Link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Programmerbikash
+
+My personal opinion:-
+1. First of all, This is a react project.
+2. Secondly, Here are i used 82.4% javaScript out of 100%
+3. Thirdly, I used 8.9% CSS out of 100%
+4. Finally, I used only 8.7% HTML out of 100%
+5. Last of all, There are 1 Navbar, 4 Routes, logo, favicon, hero icon, four cart, only for one i used rechart, 3 question in the blog route and one error route that's it.
